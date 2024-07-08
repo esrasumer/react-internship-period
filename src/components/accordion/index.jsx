@@ -11,7 +11,7 @@ export default function Accordion() {
     }
     return (
         <div className='wrapper'>
-            <button onClick={()=>handleSingleSelection()}>enabled button</button>
+            <button onClick={()=>handleSingleSelection()}>enabled Multi Selection</button>
             <div className='accordion'>
                 {data && data.length > 0 ? (
                     data.map((dataItem) => (
